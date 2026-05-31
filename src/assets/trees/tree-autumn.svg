@@ -1,0 +1,51 @@
+<svg viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trunk -->
+  <path d="M 142 275 C 140 250 137 225 135 200 C 133 180 131 162 132 148 C 136 144 145 141 150 140 C 155 141 164 144 168 148 C 169 162 167 180 165 200 C 163 225 160 250 158 275 Z" fill="#6b3a1a"/>
+
+  <!-- Root flares -->
+  <path d="M 142 275 C 135 270 120 268 108 272" stroke="#5c3015" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 158 275 C 165 270 180 268 192 272" stroke="#5c3015" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left branches -->
+  <path d="M 136 195 C 118 183 98 170 78 155" stroke="#5c3015" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M 82 157 C 70 144 60 130 54 114" stroke="#5c3015" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 82 157 C 74 148 68 140 64 130" stroke="#5c3015" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Right branches -->
+  <path d="M 164 195 C 182 183 202 170 222 155" stroke="#5c3015" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M 218 157 C 230 144 240 130 246 114" stroke="#5c3015" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 218 157 C 226 148 232 140 236 130" stroke="#5c3015" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Center branches -->
+  <path d="M 150 148 C 144 126 136 104 130 82" stroke="#5c3015" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 150 148 C 156 126 164 104 170 82" stroke="#5c3015" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 130 96 C 120 84 110 72 104 58" stroke="#5c3015" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 170 96 C 180 84 190 72 196 58" stroke="#5c3015" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Foliage — deep reds back -->
+  <ellipse cx="150" cy="88" rx="72" ry="56" fill="#b91c1c" opacity="0.8"/>
+  <ellipse cx="82" cy="116" rx="50" ry="40" fill="#991b1b" opacity="0.85"/>
+  <ellipse cx="218" cy="116" rx="50" ry="40" fill="#991b1b" opacity="0.85"/>
+
+  <!-- Foliage — orange mid -->
+  <ellipse cx="116" cy="82" rx="52" ry="42" fill="#c2410c" opacity="0.85"/>
+  <ellipse cx="184" cy="82" rx="52" ry="42" fill="#c2410c" opacity="0.85"/>
+  <ellipse cx="150" cy="68" rx="60" ry="46" fill="#ea580c" opacity="0.8"/>
+
+  <!-- Foliage — yellow front -->
+  <ellipse cx="136" cy="64" rx="42" ry="34" fill="#d97706" opacity="0.8"/>
+  <ellipse cx="166" cy="66" rx="40" ry="32" fill="#f59e0b" opacity="0.75"/>
+  <ellipse cx="150" cy="52" rx="46" ry="34" fill="#fbbf24" opacity="0.7"/>
+
+  <!-- Highlight spots -->
+  <circle cx="130" cy="48" r="13" fill="#fde68a" opacity="0.6"/>
+  <circle cx="170" cy="52" r="11" fill="#fef08a" opacity="0.55"/>
+  <circle cx="150" cy="40" r="15" fill="#fef9c3" opacity="0.5"/>
+
+  <!-- Falling leaves -->
+  <ellipse cx="242" cy="165" rx="6" ry="4" fill="#ea580c" opacity="0.7" transform="rotate(-35 242 165)"/>
+  <ellipse cx="58" cy="172" rx="5" ry="3.5" fill="#f59e0b" opacity="0.65" transform="rotate(20 58 172)"/>
+  <ellipse cx="228" cy="198" rx="5" ry="3" fill="#dc2626" opacity="0.6" transform="rotate(-20 228 198)"/>
+  <ellipse cx="72" cy="192" rx="6" ry="3.5" fill="#fbbf24" opacity="0.6" transform="rotate(30 72 192)"/>
+  <ellipse cx="255" cy="210" rx="4" ry="3" fill="#ea580c" opacity="0.5" transform="rotate(-10 255 210)"/>
+</svg>

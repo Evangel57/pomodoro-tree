@@ -1,0 +1,54 @@
+<svg viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trunk — lighter, more elegant -->
+  <path d="M 144 275 C 142 252 140 230 139 210 C 138 192 137 175 138 160 C 141 156 147 153 150 152 C 153 153 159 156 162 160 C 163 175 162 192 161 210 C 160 230 158 252 156 275 Z" fill="#9c6b4e"/>
+
+  <!-- Root flares -->
+  <path d="M 144 275 C 136 271 122 270 112 273" stroke="#8b5e42" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 156 275 C 164 271 178 270 188 273" stroke="#8b5e42" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Branches — delicate, sweeping -->
+  <path d="M 140 200 C 122 190 100 178 78 165" stroke="#8b5e42" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 82 167 C 70 155 60 140 54 124" stroke="#8b5e42" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 82 167 C 72 158 65 148 60 136" stroke="#8b5e42" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <path d="M 160 200 C 178 190 200 178 222 165" stroke="#8b5e42" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 218 167 C 230 155 240 140 246 124" stroke="#8b5e42" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 218 167 C 228 158 235 148 240 136" stroke="#8b5e42" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Center — graceful upward sweep -->
+  <path d="M 150 160 C 144 138 136 116 130 92" stroke="#8b5e42" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 150 160 C 156 138 164 116 170 92" stroke="#8b5e42" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 130 106 C 120 94 110 82 104 68" stroke="#8b5e42" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 170 106 C 180 94 190 82 196 68" stroke="#8b5e42" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 150 92 C 148 76 146 62 144 50" stroke="#8b5e42" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Blossom clusters — back -->
+  <ellipse cx="150" cy="92" rx="70" ry="54" fill="#fda4af" opacity="0.7"/>
+  <ellipse cx="82" cy="118" rx="46" ry="38" fill="#fb7185" opacity="0.7"/>
+  <ellipse cx="218" cy="118" rx="46" ry="38" fill="#fb7185" opacity="0.7"/>
+
+  <!-- Blossom clusters — mid -->
+  <ellipse cx="118" cy="82" rx="50" ry="40" fill="#fecdd3" opacity="0.8"/>
+  <ellipse cx="182" cy="82" rx="50" ry="40" fill="#fecdd3" opacity="0.8"/>
+  <ellipse cx="150" cy="68" rx="58" ry="44" fill="#ffe4e6" opacity="0.75"/>
+
+  <!-- Blossom clusters — front highlights -->
+  <ellipse cx="136" cy="62" rx="38" ry="30" fill="#fff1f2" opacity="0.8"/>
+  <ellipse cx="164" cy="65" rx="36" ry="28" fill="#fff1f2" opacity="0.75"/>
+  <ellipse cx="150" cy="48" rx="42" ry="30" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Individual flower hints -->
+  <circle cx="106" cy="102" r="8" fill="#fda4af" opacity="0.9"/>
+  <circle cx="194" cy="102" r="8" fill="#fda4af" opacity="0.9"/>
+  <circle cx="120" cy="50" r="7" fill="#fecdd3" opacity="0.8"/>
+  <circle cx="178" cy="52" r="7" fill="#fecdd3" opacity="0.8"/>
+  <circle cx="148" cy="36" r="9" fill="#fff1f2" opacity="0.7"/>
+  <circle cx="62" cy="118" r="6" fill="#fda4af" opacity="0.7"/>
+  <circle cx="238" cy="118" r="6" fill="#fda4af" opacity="0.7"/>
+
+  <!-- Falling petals -->
+  <ellipse cx="240" cy="170" rx="5" ry="3" fill="#fecdd3" opacity="0.6" transform="rotate(-30 240 170)"/>
+  <ellipse cx="60" cy="175" rx="4" ry="2.5" fill="#fecdd3" opacity="0.5" transform="rotate(20 60 175)"/>
+  <ellipse cx="225" cy="200" rx="4" ry="2.5" fill="#ffe4e6" opacity="0.5" transform="rotate(-15 225 200)"/>
+  <ellipse cx="75" cy="195" rx="5" ry="3" fill="#fecdd3" opacity="0.55" transform="rotate(25 75 195)"/>
+</svg>

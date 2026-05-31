@@ -1,0 +1,44 @@
+<svg viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trunk -->
+  <path d="M 142 275 C 140 250 137 225 135 200 C 133 180 131 162 132 148 C 136 144 145 141 150 140 C 155 141 164 144 168 148 C 169 162 167 180 165 200 C 163 225 160 250 158 275 Z" fill="#7c5c2e"/>
+
+  <!-- Root flares -->
+  <path d="M 142 275 C 135 270 120 268 108 272" stroke="#6b4c22" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 158 275 C 165 270 180 268 192 272" stroke="#6b4c22" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left main branch -->
+  <path d="M 136 195 C 122 185 104 175 85 162" stroke="#6b4c22" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M 88 164 C 78 152 68 138 62 122" stroke="#6b4c22" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 88 164 C 82 155 76 148 72 138" stroke="#6b4c22" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Right main branch -->
+  <path d="M 164 195 C 178 185 196 175 215 162" stroke="#6b4c22" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M 212 164 C 222 152 232 138 238 122" stroke="#6b4c22" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 164 C 218 155 224 148 228 138" stroke="#6b4c22" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Center branches -->
+  <path d="M 150 148 C 145 128 138 108 134 88" stroke="#6b4c22" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 150 148 C 155 128 162 108 166 88" stroke="#6b4c22" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+  <path d="M 134 102 C 126 92 118 82 112 70" stroke="#6b4c22" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 166 102 C 174 92 182 82 188 70" stroke="#6b4c22" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Foliage — back layer (darker) -->
+  <ellipse cx="150" cy="90" rx="72" ry="58" fill="#15803d" opacity="0.85"/>
+  <ellipse cx="88" cy="118" rx="50" ry="42" fill="#166534" opacity="0.9"/>
+  <ellipse cx="212" cy="118" rx="50" ry="42" fill="#166534" opacity="0.9"/>
+
+  <!-- Foliage — mid layer -->
+  <ellipse cx="118" cy="85" rx="52" ry="44" fill="#16a34a" opacity="0.9"/>
+  <ellipse cx="182" cy="85" rx="52" ry="44" fill="#16a34a" opacity="0.9"/>
+  <ellipse cx="150" cy="72" rx="58" ry="46" fill="#22c55e" opacity="0.85"/>
+
+  <!-- Foliage — highlight layer (front, lighter) -->
+  <ellipse cx="138" cy="68" rx="40" ry="34" fill="#4ade80" opacity="0.75"/>
+  <ellipse cx="165" cy="72" rx="38" ry="32" fill="#4ade80" opacity="0.7"/>
+  <ellipse cx="150" cy="55" rx="44" ry="34" fill="#86efac" opacity="0.6"/>
+
+  <!-- Small highlight dots -->
+  <circle cx="128" cy="52" r="12" fill="#bbf7d0" opacity="0.5"/>
+  <circle cx="170" cy="56" r="10" fill="#bbf7d0" opacity="0.45"/>
+  <circle cx="150" cy="44" r="14" fill="#dcfce7" opacity="0.4"/>
+</svg>
