@@ -76,15 +76,29 @@ function skipToBreak() {
 function playNotification() {
   try {
     const ctx = new AudioContext()
-    const osc = ctx.createOscillator()
-    const gain = ctx.createGain()
-    osc.connect(gain)
-    gain.connect(ctx.destination)
-    osc.frequency.value = mode.value === 'break' ? 523 : 440
-    gain.gain.setValueAtTime(0.3, ctx.currentTime)
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.8)
-    osc.start()
-    osc.stop(ctx.currentTime + 0.8)
+    const master = ctx.createGain()
+    master.gain.value = 0.22
+    master.connect(ctx.destination)
+
+    const isWork = mode.value !== 'work'
+    const notes = isWork
+      ? [523, 659, 784]      // work done: C E G ascending
+      : [784, 659, 523]      // break done: G E C descending
+
+    notes.forEach((freq, i) => {
+      const osc  = ctx.createOscillator()
+      const gain = ctx.createGain()
+      osc.type = 'sine'
+      osc.frequency.value = freq
+      osc.connect(gain)
+      gain.connect(master)
+      const t = ctx.currentTime + i * 0.18
+      gain.gain.setValueAtTime(0, t)
+      gain.gain.linearRampToValueAtTime(1, t + 0.02)
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.5)
+      osc.start(t)
+      osc.stop(t + 0.5)
+    })
   } catch {}
 }
 

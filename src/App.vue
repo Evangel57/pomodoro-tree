@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
 import PomodoroTimer from './components/PomodoroTimer.vue'
-import TreeCanvas from './components/TreeCanvas.vue'
+import PixelTreeCanvas from './components/PixelTreeCanvas.vue'
 import AmbientPlayer from './components/AmbientPlayer.vue'
 import SettingsModal from './components/SettingsModal.vue'
 
@@ -62,7 +62,7 @@ watch(theme, (val) => {
 
     <main class="app-main">
       <div class="left-panel">
-        <TreeCanvas :progress="treeProgress" :theme="theme" :tree-seed="treeSeed" />
+        <PixelTreeCanvas :progress="treeProgress" :theme="theme" :tree-seed="treeSeed" />
         <div class="tree-info">
           <span class="sessions-count">{{ completedSessions }} / {{ settings.sessionsToFullTree }} sessions</span>
           <button class="reset-btn" @click="resetTree">Reset tree</button>
